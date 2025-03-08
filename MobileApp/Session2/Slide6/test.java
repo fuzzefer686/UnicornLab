@@ -51,8 +51,7 @@ public class test{
             System.out.println("Ten phong: "+tenPhong);
             System.out.println("So NV: "+soNhanVien);
             System.out.println("Thong tin cac NV");
-            for (int i=0;i<soNhanVien;i++)
-                dsnv[i].inTTin();
+            for(NhanVien x: dsnv)x.inTTin();
         }
     }
     public static void main(String[] args) {
